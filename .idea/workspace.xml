@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e9a42d5-5b9b-4692-84e9-efa3e105e268" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest219.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest220.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest496.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest728.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest771.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,14 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest496.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
-              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -64,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest728.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest771.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest496.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -275,12 +280,12 @@
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,10 +522,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cc/kevinlu/leetcode/MainTest496.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
