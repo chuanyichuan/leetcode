@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class MainTest008 {
     public static void main(String[] args) {
-        String str = "    -111";
+        String str = "    -111   -123";
         System.out.println(myAtoi(str));
     }
 
