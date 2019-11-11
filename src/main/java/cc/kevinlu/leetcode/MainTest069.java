@@ -2,23 +2,20 @@ package cc.kevinlu.leetcode;
 
 public class MainTest069 {
     public static void main(String[] args) {
-       Solution k = new Solution();
-        System.out.println(k.mySqrt(19));
+        mySqrt(4);
     }
-}
-class Solution {
-    int s;
-    public int mySqrt(int x) {
-        s=x;
-        if(x==0) return 0;
-        return ((int)(sqrts(x)));
+    public static int mySqrt(int x) {
+        return binary(0, x, x);
     }
-    public double sqrts(double x){
-        double result = (x + s / x) / 2;
-        if (result == x) {
-            return x;
-        } else {
-            return sqrts(result);
+    public static int binary(int left, int right, int target){
+        int middle = (left + right)/2;
+        if(Math.pow(middle,2) <= target && target < Math.pow(middle + 1, 2)){
+            return middle;
+        }
+        if(Math.pow(middle, 2) < target){
+            return binary(middle + 1, right, target);
+        }else {
+           return binary(left, middle - 1, target);
         }
     }
 }
