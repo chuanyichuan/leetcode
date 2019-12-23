@@ -30,4 +30,14 @@ public class MainTest110 {
         if(root == null) return 0;
         return 1 + Math.max(MaxDeth(root.left), MaxDeth(root.right));
     }
+
+    public static boolean isBalanced1 (TreeNode root){
+        if(root == null) return true;
+        int left = MaxDeth(root.left);
+        int right = MaxDeth(root.right);
+        if(isBalanced1(root.right) && isBalanced1(root.left) && Math.abs(left - right) < 1){
+            return true;
+        }
+        return false;
+    }
 }

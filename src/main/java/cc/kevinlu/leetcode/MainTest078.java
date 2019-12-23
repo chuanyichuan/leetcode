@@ -7,12 +7,12 @@ import java.util.Stack;
 public class MainTest078 {
 
     public static void main(String[] args) {
-        String path ="D/acas/asda.zip";
+       /* String path ="D/acas/asda.zip";
         String result = path.substring(path.lastIndexOf("/") + 1);
         System.out.println(result);
 
         String asd= "download.zip;end#faceall.zip;end#12";
-                String[] das = asd.split(";end#");
+                String[] das = asd.split(";end#");*/
    /*     int c =(3>>0)&1 ;
         if(((3>>0)&1 ) == 1)
         System.out.println(c);*/
@@ -20,6 +20,8 @@ public class MainTest078 {
         //subsets(bl);
         subsetsdd(bl);
         //subsetBack(bl);
+        int[] nums ={1,2,2};
+        subsetBack(nums);
     }
     public static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();

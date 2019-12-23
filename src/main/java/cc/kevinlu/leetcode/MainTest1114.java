@@ -7,12 +7,7 @@ public class MainTest1114 {
     public static void main(String[] args) throws InterruptedException {
         Foo foo = new Foo();
 
-        Thread t1 = new Thread() {
-            @Override
-            public void run() {
-                System.out.println("first");
-            }
-        };
+        Thread t1 = new Thread(() -> System.out.println("first"));
         Thread t2 = new Thread() {
             @Override
             public void run() {
